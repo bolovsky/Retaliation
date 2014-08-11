@@ -94,32 +94,79 @@ import usb.util
 # to shoot.
 #
 COMMAND_SETS = {
-    "will" : (
+    "luismonge" : (
         ("zero", 0), # Zero/Park to know point (bottom-left)
         ("led", 1), # Turn the LED on
-        ("right", 3250),
-        ("up", 540),
-        ("fire", 4), # Fire a full barrage of 4 missiles
+        ("right", 3100),
+        ("up", 130),
+        ("fire", 1), # Fire a full barrage of 4 missiles
         ("led", 0), # Turn the LED back off
         ("zero", 0), # Park after use for next time
     ),
-    "tom" : (
-        ("zero", 0), 
-        ("right", 4400),
-        ("up", 200),
-        ("fire", 4),
+    "fteixeira" : (
         ("zero", 0),
-    ),
-    "chris" : (      # That's me - just dance around and missfire!
-        ("zero", 0),
-        ("right", 5200),
-        ("up", 500),
-        ("pause", 5000),
-        ("left", 2200),
-        ("down", 500),
+        ("led", 1),
+        ("right", 3000),
+        ("up", 320),
         ("fire", 1),
+        ("led", 0),
         ("zero", 0),
     ),
+    "ricardoflopes" : (
+        ("zero", 0),
+        ("led", 1),
+        ("right", 4000),
+        ("up", 0),
+        ("fire", 1),
+        ("led", 0),
+        ("zero", 0),
+    )
+    ,
+    "pmonteiro" : (
+        ("zero", 0),
+        ("led", 1),
+        ("right", 3450),
+        ("up", 700),
+        ("fire", 1),
+        ("led", 0),
+        ("zero", 0),
+    ),
+    "jalexandre" : (
+        ("zero", 0),
+        ("led", 1),
+        ("right", 1650),
+        ("up", 130),
+        ("fire", 1),
+        ("led", 0),
+        ("zero", 0),
+    ),
+    "miguelfteixeira" : (
+        ("zero", 0),
+        ("led", 1),
+        ("right", 2350),
+        ("up", 0),
+        ("fire", 1),
+        ("led", 0),
+        ("zero", 0),
+    ),
+    "marcosramos" : (
+        ("zero", 0),
+        ("led", 1),
+        ("right", 1700),
+        ("up", 0),
+        ("fire", 1),
+        ("led", 0),
+        ("zero", 0),
+    ),
+    "smsimoes" : (
+        ("zero", 0),
+        ("led", 1),
+        ("right", 1700),
+        ("up", 0),
+        ("fire", 1),
+        ("led", 0),
+        ("zero", 0),
+    )
 }
 
 #
